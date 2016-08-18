@@ -67,7 +67,7 @@ Sub Setup() As Object
     this.player.SetDestinationRect({ x:0, y:0, w:0, h:0 })
     this.player.AddHeader("User-Agent", "Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B334b Safari/531.21.10")
     this.player.SetContentList([{
-        Stream: { url: "http://prepublish.f.qaotic.net/epb/ngrp:c7live02Internacional-20034_all/Playlist.m3u8" }
+        Stream: { url: "http://prepublish.f.qaotic.net/a02/ngrp:c7live01-20034_all/Playlist.m3u8" }
         StreamFormat: "hls"
         SwitchingStrategy: "full-adaptation"
     }])
